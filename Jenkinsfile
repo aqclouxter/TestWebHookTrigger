@@ -8,14 +8,10 @@ pipeline {
       [key: 'ref', value: '$.ref']
      ],
      causeString: 'Triggered on $ref',
-
      token: 'abc123*',
-
-     printContributedVariables: true,
-     printPostContent: true,
-
+     printContributedVariables: false,
+     printPostContent: false,
      silentResponse: false,
-
      regexpFilterText: '$ref',
      regexpFilterExpression: 'master$'
     )
