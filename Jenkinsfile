@@ -20,7 +20,6 @@ pipeline {
      regexpFilterText: '$ref',
      regexpFilterExpression: 'refs/heads/' + BRANCH_NAME
     )
-    )
   }
     stages {
       stage('Bootstrap n Transpile') {
