@@ -18,7 +18,7 @@ pipeline {
      silentResponse: false,
 
      regexpFilterText: '$ref',
-     regexpFilterExpression: '$master'
+     regexpFilterExpression: 'master$'
     )
   }
     stages {
