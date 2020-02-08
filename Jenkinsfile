@@ -12,7 +12,7 @@ pipeline {
 
      token: 'abc123*',
 
-     printContributedVariables: true,
+     printContributedVariables: false,
      printPostContent: true,
 
      silentResponse: false,
