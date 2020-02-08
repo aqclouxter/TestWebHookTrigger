@@ -10,7 +10,7 @@ pipeline {
 
      causeString: 'Triggered on $ref',
 
-     token: 'abc123',
+     token: 'abc123*',
 
      printContributedVariables: true,
      printPostContent: true,
