@@ -22,7 +22,7 @@ pipeline {
     )
   }
     stages {
-      stage('Bootstrap n Transpile') {
+      stage('pull reps') {
         steps {
           sh 'echo $ref'
           
