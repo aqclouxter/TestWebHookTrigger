@@ -9,8 +9,6 @@ pipeline {
      ],
     )
   }
-    
-    
     stages {
       stage('Bootstrap n Transpile') {
         steps {
