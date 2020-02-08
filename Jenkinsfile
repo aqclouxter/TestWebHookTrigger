@@ -6,7 +6,7 @@ pipeline {
     stages {
       stage('pull reps') {
         steps {
-          sh 'execelente!'
+          sh 'echo "execelente!"'
           
         }
       }
